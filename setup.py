@@ -9,6 +9,7 @@ setup(name="librsync-melissi",
       maintainer="Giorgos Logiotatidis",
       maintainer_email="seadog@sealabs.net",
       url="https://gitorious.org/melissi/librsync",
+      packages=['librsync'],
       ext_modules = [Extension("_librsync",
                                ["_librsyncmodule.c"],
                                libraries=["rsync"]
